@@ -1,0 +1,122 @@
+---
+title: "Untitled"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{css}
+/*you can include comments in CSS code like this!*/
+  
+body{
+  background-color: lightblue;
+}
+
+h1 {
+  color: green;
+}
+
+h2 {
+  color: blue;
+}
+
+/*use . to modify tags of a certain class*/
+.myclass {
+  color: purple;
+  font-weight: bold;
+}
+
+/*use the hashtag to modify a tag with a certain id*/
+#cool {
+  font-style: italic;
+}
+
+/* use commas to select multiple elements at once */
+h3, h4, h5, h6 {
+  color: yellow;
+}
+
+.tabset-pills {
+  background: lightgrey;
+}
+
+/* use the > to select children of a certain parent */
+.tabset-pills>li {
+  background: magenta;
+  face: bold;
+}
+
+```
+
+# This is a Header 1 (h1)
+
+Text text text
+
+## This is a Header 2 (h2)
+
+Text text text
+
+## This is another Header 2 (h2)
+
+Text text text
+
+### This is a Header 3 (h3)
+
+Text text text
+
+# This is another Header 1 (h1)
+
+Text text text
+
+## A Tabbed Section {.tabset .tabset-fade .tabset-pills}
+
+Text text text
+
+### Tab
+
+More text
+
+### Another Tab
+
+More text
+
+## A Custom Class (.myclass) {.myclass}
+
+Note that the classes you specify in markdown relate to the section under the header not the header itself!
+
+### Subsection 1
+
+More text
+
+### Subsection 2
+
+More text
+
+## Header with Same Custom Class (.myclass) {.myclass}
+
+Note that the classes you specify in markdown relate to the section under the header not the header itself!
+
+### Subsection 1
+
+More text
+
+### Subsection 2
+
+More text
+
+## Custom ID (#cool) {#cool}
+
+Note that the IDs you specify in markdown relate to the section under the header not the header itself!
+
+### Subsection 1
+
+More text
+
+### Subsection 2
+
+More text

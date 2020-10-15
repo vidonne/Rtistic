@@ -1,0 +1,23 @@
+Package: Rtistic
+Title: A collection of custom palettes and themes for ggplot2 and RMarkdown
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Emily",
+           family = "Riederer",
+           role = c("aut", "cre"),
+           email = "emilyriederer@gmail.com")
+Description: What the package does (one paragraph).
+License: CC0
+Imports: 
+    ggplot2,
+    grDevices,
+    rmarkdown,
+    scales
+Suggests: 
+    knitr,
+    xaringan
+VignetteBuilder: 
+    knitr
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
